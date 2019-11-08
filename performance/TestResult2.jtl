@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1917" it="0" lt="304" ct="146" ts="1573220185504" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="321824" sby="276" ng="1" na="1">
+  <httpSample t="307" it="0" lt="304" ct="146" ts="1573220185504" s="true" lb="HTTP Request-0" rc="301" rm="TLS Redirect" tn="Thread Group 1-1" dt="" by="554" sby="138" ng="1" na="1">
+    <java.net.URL>http://en.wikipedia.org/wiki/Wikipedia:About</java.net.URL>
+  </httpSample>
+  <httpSample t="1609" it="0" lt="834" ct="798" ts="1573220185812" s="true" lb="HTTP Request-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="321270" sby="138" ng="1" na="1">
+    <java.net.URL>https://en.wikipedia.org/wiki/Wikipedia:About</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://en.wikipedia.org/wiki/Wikipedia:About</java.net.URL>
+</httpSample>
+
+</testResults>
